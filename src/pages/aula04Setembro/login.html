@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="marca">
+                Acessar sistema
+            </div>
+            <nav>
+                <a href="area.html">Ir para área</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <form>
+            <label>Acesso rápido</label>
+            <label for="txtUsuario">Usuário</label>
+            <input type="text" id="txtUsuario" placeholder="Digite seu usuário" required minlength="3" maxlength="8">
+
+            <label for="txtSenha">Senha</label>
+            <input type="password" id="txtSenha" placeholder="Digite sua senha" required minlength="6">
+
+            <label style="margin-top: 10px;">
+                <input type="checkbox" id="chkLembrar" > Manter-me conectado
+            </label>
+
+            <div>
+                <button type="submit">Entrar</button>
+                <a href="index.html">Cancelar</a>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <div class="container">
+            <small>&copy; 2025 Senac SP</small>
+        </div>
+    </footer>
+</body>
+</html>
