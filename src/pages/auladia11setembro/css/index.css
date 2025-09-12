@@ -54,6 +54,7 @@ section {
 }
 
 .caixa {
+    margin-top: 50px;
     background: #fafa9a;
     border: 1px solid #a150a1;
     border-radius: 10px;

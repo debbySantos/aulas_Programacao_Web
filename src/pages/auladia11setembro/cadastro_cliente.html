@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliente</title>
+    <link rel="stylesheet" href="/src/pages/auladia11setembro/css/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="container topo">
+            <h1>Cadastros</h1>
+            <nav aria-label="Principal">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section>
+                <div class="form-grid2">
+                    <div>
+                        <label for="txtNome">Nome completo * </label>
+                        <input id="txtNome" type="text" placeholder="Ex: Maria João">
+
+                    </div>
+
+                    <div>
+                        <label for="txtEmail">E-mail * </label>
+                        <input id="txtEmail" type="email" placeholder="nome@senac.br">
+
+                    </div>
+
+                    <div>
+                        <label for="txtSenha">Senha * </label>
+                        <input id="txtSenha" type="password" required minlength="6" maxlength="8">
+
+                    </div>
+
+                    <div>
+                        <label for="txtSenhaConfirmar">Senha Confirmar * </label>
+                        <input id="txtSenhaConfirmar" type="password" required minlength="6" maxlength="8">
+
+                    </div>
+
+                    <div>
+                        <label for="txtNascimento">Data de nascimento * </label>
+                        <input id="txtNascimento" type="date" required>
+
+                    </div>
+
+                    <div>
+                        <label for="txtTelefone">Telefone </label>
+                        <input id="txtTelefone" type="tel" required>
+
+                    </div>
+
+                    <div>
+                        <label for="txtEstado">Estado </label>
+                        <select id="slcEstado" required>
+                            <option value="">Selecione</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="ES">Espirito Santo</option>
+                        </select>
+
+                    </div>
+
+
+                    
+                    <div>
+                        <label>Preferências</label>
+                        <label><input type="checkbox" name="noticias">Receber notícias</label>
+                        <label><input type="checkbox" name="termo">Aceitar termo</label>
+
+                    </div>
+
+                    <div>
+                        <label>Gênero</label>
+                        <label><input type="radio" name="genero" value="M">Masculino</label>
+                        <label><input type="radio" name="genero" value="F">Feminino</label>
+                        <label><input type="radio" name="genero" value="O">Outros</label>
+                        
+
+                    </div>
+
+                    <p>
+                        <button type="submit">Salvar</button>
+                        <button class="btn" type="reset">Limpar</button>
+                        <a class="btn" href="cadastro.html">Voltar</a>
+                    </p>
+
+                </div>
+            </section>
+        </div>
+
+    </main>
+</body>
+
+</html>
